@@ -1,0 +1,5 @@
+{"uName":"~spam_bot","text":"SPAM!","timeStamp":1587435662370,"task":"save_chat","voters":["~spam_bot"]}
+{"uName": "rv7", "text": "Stelvio Pass, Italy", "timeStamp": 1587435815747, "imgURL": "./bin/i1587435815747.png", "task": "save_mms", "voters":["rv7", "Rahul Verma"]}
+{"uName": "rv7", "text": "Anhui, China", "timeStamp": 1587435833290, "imgURL": "./bin/i1587435833290.png", "task": "save_mms", "voters":["rv7", "Rahul Verma"]}
+{"uName":"Rahul Verma","text":"Hi, server!<br><br>From today, this is my <i>\"intranet diary\"</i>. <br>I'll start writing from <b>25th April</b> ;)<br><br>- Rahul Verma","timeStamp":1587436174145,"task":"save_chat","voters":["Rahul Verma"]}
+{"uName": "Rahul Verma", "text": "World's second largest image!!", "timeStamp": 1587438937712, "imgURL": "./bin/i1587438937712.png", "task": "save_mms", "voters": ["Rahul Verma"]}

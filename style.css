@@ -1,0 +1,70 @@
+body {
+	font: 500 18px georgia;
+	display: flex;
+	flex-direction: row;
+}
+em, a.user {
+	cursor: pointer;
+	font-style: normal;
+	font-weight: normal;
+}
+em {
+	font-family: monospace;
+	color: #fa0;
+}
+em:hover, .voted em {
+	color: #f33;
+}
+a.user {
+	color: #08f;
+}
+a.user:visited {
+	color: #08f;
+}
+img {
+	margin-top: 12px;
+	max-width: 95%;
+	height: auto;
+}
+#input {
+	flex: 1;
+	position: sticky;
+	position: -moz-sticky;
+	top: 25px;
+	align-self: flex-start;
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 0 12px;
+}
+#output {
+	flex: 1;
+	flex-grow: 3;
+	margin: 0 12px;
+}
+#input > *, #output > p {
+	width: auto;
+	box-sizing: border-box;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	padding: 7px 12px;
+}
+#input > textarea {
+	border: 2px solid #777;
+}
+#input > p {
+	border: 2px solid #ccc;
+}
+#input > button {
+	border: none;
+	background: #f75;
+	color: #fff;
+	font: 500 18px georgia;
+	cursor: pointer;
+}
+#output > p {
+	border: 2px solid #eee;
+	color: #999;
+}
+#output > p > span {
+	color: #000;
+}

@@ -1,0 +1,25 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+#input {
+	flex: 1;
+	order: 1;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+	justify-content: space-between;
+	padding: 20px;
+	top: 0;
+}
+#input > * {
+	margin: 7px 0;
+}
+#input > textarea, #input > p {
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+}
+#output {
+	order: 2;
+}
